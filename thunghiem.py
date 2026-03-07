@@ -5,6 +5,7 @@ from datetime import datetime, date
 from gtts import gTTS 
 from modules.lexi_ai import get_word_info
 
+
 # ================= 1. CẤU HÌNH & STYLE =================
 st.set_page_config(page_title="Lexi AI - Super Hero", layout="wide")
 
@@ -13,6 +14,7 @@ TIPS = [
     "💡 Dùng từ nối (Linking words) để tăng điểm Cohesion.",
     "💡 Luyện nghe 15 phút mỗi ngày giúp tăng phản xạ.",
     "💡 Paraphrase là chìa khóa để đạt điểm Writing cao."
+    "💡 Học từ qua ngữ cảnh sẽ nhớ lâu hơn là học riêng lẻ."
 ]
 
 st.markdown("""
@@ -67,7 +69,7 @@ st.markdown(f"""
 <div class="header-container">
     <div style="display: flex; align-items: center; gap: 10px;">
         <span style="font-size: 30px;">🦸‍♂️</span>
-        <b style="font-size: 18px;">LEXI AI: BEGIN_6</b>
+        <b style="font-size: 18px;">LEXI AI </b>
     </div>
     <div style="display: flex; gap: 20px; align-items: center;">
         <div style="text-align:right"><small>Phiên học</small><br><b>{dur} phút</b></div>
